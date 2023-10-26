@@ -1,32 +1,24 @@
-let x = 2
-let y = 1
-
-function sumar()
-{
-    return x + y
+function sumar(sumando1, sumando2){
+    return sumando1 + sumando2
 }
-console.log(sumar())
+console.log(sumar(10, 5))
 
-function restar()
-{
-    return x - y
+function restar(minuendo, sustraendo){
+    return minuendo - sustraendo
 }
-console.log(restar())
+console.log(restar(10, 5))
 
-function multuplicar()
-{
-    return x * y
+function multuplicar(factor1, factor2){
+    return factor1 * factor2
 }
-console.log(multuplicar())
+console.log(multuplicar(10, 5))
 
-function dividir()
-{
-    return x / y
+function dividir(dividendo, divisor){
+    return dividendo / divisor
 }
-console.log(dividir())
+console.log(dividir(10, 5))
 
-function doble()
-{
+function doble(x){
     return x * 2
 }
-console.log(doble())
+console.log(doble(10, 5))

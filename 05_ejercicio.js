@@ -1,7 +1,5 @@
-let r = 5
-
-function areaCírculo()
+function areaCírculo(r)
 {
     return r * r * Math.PI
 }
-console.log(areaCírculo())
+console.log(areaCírculo(5))
