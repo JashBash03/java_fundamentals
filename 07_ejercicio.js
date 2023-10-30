@@ -1,6 +1,6 @@
-function celsiusToFahrenheit(c)
+function calcularPrecioConIVA(i)
 {
-    return (c * 1.8) + 32
+    return (i * 21 / 100) + i
 }
 
-console.log(celsiusToFahrenheit(20))
+console.log(calcularPrecioConIVA(20))
